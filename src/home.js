@@ -17,6 +17,7 @@ export function renderHome(content) {
     whatWereAbout.textContent = 'Some more text about what this company, family, and restaurant stand for. Some 100% real testimonials and whatnot could probably go here. Definitely no overexagerating going on in this section, no sir.'
     
     const familyPic = document.createElement('img');
+    familyPic.id = 'familyPic';
     familyPic.src = "https://img.freepik.com/free-photo/medium-shot-happy-family-indoors_23-2148880377.jpg";
     familyPic.alt = 'The restaurants founding family';
     

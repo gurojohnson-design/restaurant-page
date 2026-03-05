@@ -4,6 +4,7 @@ import "./contact.js";
 
 import { renderHome } from "./home.js";
 import { renderContact } from "./contact.js";
+import { renderMenu } from "./menu.js";
 
 
 
@@ -19,4 +20,8 @@ document.getElementById('homeBtn').addEventListener('click', () => {
 
 document.getElementById('contactBtn').addEventListener('click', () => {
     renderContact(content);
+});
+
+document.getElementById('menuBtn').addEventListener('click', () => {
+    renderMenu(content);
 });

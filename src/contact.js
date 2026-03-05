@@ -18,6 +18,11 @@ export function renderContact(content) {
     const email = document.createElement('div');
     email.classList.add('email');
 
+    const contactPic = document.createElement('img');
+    contactPic.id ='contactPic';
+
+    contactPic.src = 'https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg';
+
     heading.textContent = 'Contact Us';
 
     label.textContent = 'Our Office:';
@@ -27,6 +32,6 @@ export function renderContact(content) {
     email.textContent = 'aVeryRealEmail@100%real.com';
 
     contact.append(label, phone, email);
-    content.append(heading, contact);
+    content.append(heading, contactPic, contact);
 
 };
