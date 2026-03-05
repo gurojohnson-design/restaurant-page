@@ -3,6 +3,7 @@ import "./menu.js";
 import "./contact.js";
 
 import { renderHome } from "./home.js";
+import { renderContact } from "./contact.js";
 
 
 
@@ -16,6 +17,6 @@ document.getElementById('homeBtn').addEventListener('click', () => {
     renderHome(content);
 });
 
-document.getElementById('menuBtn').addEventListener('click', () => {
-    content.textContent = '';
+document.getElementById('contactBtn').addEventListener('click', () => {
+    renderContact(content);
 });

@@ -21,6 +21,4 @@ export function renderHome(content) {
     familyPic.alt = 'The restaurants founding family';
     
     content.append(heading, familyPic, whoWeAre, whatWereAbout);
-    console.log(heading);
-    console.log(heading.textContent);
-}
+};
