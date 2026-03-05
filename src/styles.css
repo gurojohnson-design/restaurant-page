@@ -1,0 +1,51 @@
+#body {
+    background-color: beige;
+    border: 1px black solid;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+#header {
+    background-color: lightblue;
+    border: 1px red solid;
+    
+}
+
+#nav {
+    background-color: lightcoral;
+    border: 1px orange solid;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 6px;
+    border: black 1px solid;
+    height: min-content;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+button:active {
+    background-color: blue;
+}
+
+#content {
+    background-color: gray;
+    border: purple solid 1px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-self: center;
+    align-items: center;
+}
+
